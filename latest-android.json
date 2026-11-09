@@ -1,15 +1,20 @@
 {
-  "version": "1.9.1",
-  "versionCode": 77,
-  "desc": "新增\n\n- 歌词页：上下滑动歌词时，停留的歌词行会显示时间条（左侧为该句时间、右侧为播放按钮），点击播放按钮即可从该句开始播放\n- 歌词页：直接点击任意歌词行即可跳转到该句播放，暂停状态下会自动开始播放（竖屏 / 横屏均支持）\n\n优化\n\n- 歌词页：滑动后 5 秒内无操作，自动回到当前正在播放的歌词位置\n- 播放页设置中的「显示歌词进度调整」默认开启\n\n其他\n\n- 新增 `npm run bump` 脚本，自动递增 version 与 versionCode\n- GitHub Actions 支持 main 分支推送后自动打包签名 APK 并发布 Release",
-  "history": [],
-  "page": "https://github.com/libai6666/lxmusic-android/releases/tag/v1.9.1",
+  "version": "1.9.2",
+  "versionCode": 78,
+  "desc": "新增\n\n- 应用内自动更新：改为从自有分发仓 lxmusic-android-updates 获取版本与安装包\n\n优化\n\n- 检查更新与下载安装包支持国内加速镜像，失败自动切换下一个地址\n\n其他\n\n- 移除原上游项目的版本检查渠道",
+  "history": [
+    {
+      "version": "1.9.1",
+      "desc": "新增\n\n- 歌词页：上下滑动歌词时，停留的歌词行会显示时间条（左侧为该句时间、右侧为播放按钮），点击播放按钮即可从该句开始播放\n- 歌词页：直接点击任意歌词行即可跳转到该句播放，暂停状态下会自动开始播放（竖屏 / 横屏均支持）\n\n优化\n\n- 歌词页：滑动后 5 秒内无操作，自动回到当前正在播放的歌词位置\n- 播放页设置中的「显示歌词进度调整」默认开启\n\n其他\n\n- 新增 `npm run bump` 脚本，自动递增 version 与 versionCode\n- GitHub Actions 支持 main 分支推送后自动打包签名 APK 并发布 Release"
+    }
+  ],
+  "page": "https://github.com/libai6666/lxmusic-android-updates/releases/tag/v1.9.2",
   "assets": {
-    "arm64-v8a": "https://github.com/libai6666/lxmusic-android/releases/download/v1.9.1/lx-music-mobile-v1.9.1-arm64-v8a.apk",
-    "armeabi-v7a": "https://github.com/libai6666/lxmusic-android/releases/download/v1.9.1/lx-music-mobile-v1.9.1-armeabi-v7a.apk",
-    "x86_64": "https://github.com/libai6666/lxmusic-android/releases/download/v1.9.1/lx-music-mobile-v1.9.1-x86_64.apk",
-    "x86": "https://github.com/libai6666/lxmusic-android/releases/download/v1.9.1/lx-music-mobile-v1.9.1-x86.apk",
-    "universal": "https://github.com/libai6666/lxmusic-android/releases/download/v1.9.1/lx-music-mobile-v1.9.1-universal.apk"
+    "arm64-v8a": "https://github.com/libai6666/lxmusic-android-updates/releases/download/v1.9.2/lx-music-mobile-v1.9.2-arm64-v8a.apk",
+    "armeabi-v7a": "https://github.com/libai6666/lxmusic-android-updates/releases/download/v1.9.2/lx-music-mobile-v1.9.2-armeabi-v7a.apk",
+    "x86_64": "https://github.com/libai6666/lxmusic-android-updates/releases/download/v1.9.2/lx-music-mobile-v1.9.2-x86_64.apk",
+    "x86": "https://github.com/libai6666/lxmusic-android-updates/releases/download/v1.9.2/lx-music-mobile-v1.9.2-x86.apk",
+    "universal": "https://github.com/libai6666/lxmusic-android-updates/releases/download/v1.9.2/lx-music-mobile-v1.9.2-universal.apk"
   },
-  "published": "2026-11-09T07:39:44.949Z"
+  "published": "2026-11-09T10:18:20.864Z"
 }
